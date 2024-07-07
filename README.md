@@ -11,5 +11,6 @@
     <li>Import db file(blog.sql) into your database  or migrate using command (php artisan make:migration) </li>
     <li>run command[laravel file manager]:- php artisan storage:link</li>
     <li>Run php artisan serve and Visit localhost:8000 in your browser</li>
+    <li> Feauters : Like, sorting, filtering and searching were done using ajax</li>
     
 </ol>
