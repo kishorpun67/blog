@@ -39,7 +39,7 @@
                             {!! $post->description !!}
         
                             <ul class="post-info">
-                            <li><a href="#javascript:void(0);>{{ $post->created_at->diffForHumans()}}</a></li>
+                            <li><a href="javascript:void(0);">{{ $post->created_at->diffForHumans()}}</a></li>
                             <li><a href="javascript:void(0);" id="make-like-{{$post->id}}" 
                                 class="make-like" attr={{$post->id}}> 
                                 <i class="fa {{$post->checkLike($post->id, auth()->user()->id) == 1 ? 'fa-heart' : 'fa-heart-o'}} like-icon"></i> </a>
