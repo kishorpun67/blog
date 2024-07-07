@@ -12,3 +12,6 @@
     
     
 </ol>
+    ```php```
+    coomposer install
+    ```php```
