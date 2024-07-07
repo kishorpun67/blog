@@ -2,7 +2,7 @@
     <h3>
         Set up :
     </h3>
-    <li> php version required >= 8.1 <li>
+    <li> php version required >= 8.1 </li>
     <li>Clone the repo and cd into it</li>
     <li>In your terminal composer install</li>
     <li>Rename or copy .env.example file to .env</li>
